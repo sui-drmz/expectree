@@ -1,8 +1,6 @@
 # Expectree
 
-Expectree is a runtime for expressing interactive scenarios as expectation graphs. It powers tutorials, quests, and runbooks that need to understand sequences of actions—keystrokes, commands, approvals—and adapt in real time.
-
-See `../../VISION.md` for the product vision.
+Expectree is a TypeScript library for managing complex, branching state as expectation trees. You define expectations for how a scenario should unfold, and Expectree helps you run them step-by-step, inspect the state, and compare what actually happened to what you expected.
 
 ## Install
 
