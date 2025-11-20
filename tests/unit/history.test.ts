@@ -18,7 +18,7 @@ describe('History helper', () => {
 
     const tree = new TreeBuilder()
       .addExpectation(n1)
-      .and()
+      .or()
       .addExpectation(n2)
       .build();
 
