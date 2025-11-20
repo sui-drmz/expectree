@@ -1,5 +1,5 @@
 {
-  "name": "@sui-drmz/expectree",
+  "name": "@suidrmz/expectree",
   "version": "0.1.0",
   "description": "Type-safe expectation trees for modeling branching workflows, tutorials, exams, and incident runbooks in TypeScript and React.",
   "private": false,

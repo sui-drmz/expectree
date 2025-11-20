@@ -14,13 +14,13 @@ If you build something with Expectree that doesn’t fit these boxes, I’d love
 ## Install
 
 ```bash
-npm i @sui-drmz/expectree
+npm i @suidrmz/expectree
 ```
 
 ## First Scenario
 
 ```ts
-import { node, TreeBuilder } from '@sui-drmz/expectree';
+import { node, TreeBuilder } from '@suidrmz/expectree';
 
 // Vim tutorial: either perform the three manual edits or use the substitution macro
 const moveCursor = node('vim.cursor.line5', { type: 'vim', goal: 'position' });
@@ -89,7 +89,7 @@ Here’s a minimal React component that wires an incident runbook tree into your
 
 ```tsx
 import { useMemo } from 'react';
-import { node, TreeBuilder, useExpectationTree } from '@sui-drmz/expectree';
+import { node, TreeBuilder, useExpectationTree } from '@suidrmz/expectree';
 
 function createRunbookTree() {
   const acknowledge = node('runbook.ack', { type: 'runbook', stage: 'ack' });
@@ -137,7 +137,7 @@ Below are more focused examples showing how to work with nodes and trees.
 ### Creating Nodes
 
 ```ts
-import { node, check } from '@sui-drmz/expectree';
+import { node, check } from '@suidrmz/expectree';
 
 // With alias (dot syntax)
 const n1 = node('user.isAdmin', { type: 'user', role: 'admin' });
@@ -223,7 +223,7 @@ console.log(isFulfilled()); // is the whole scenario satisfied?
 Expectations support `fulfillAsync`, `rejectAsync`, and `evaluateAsync`, making it easy to plug in telemetry streams (e.g., command output, API checks, IDE events). Snapshots/diffs capture the resulting state transitions.
 
 ```ts
-import { node } from '@sui-drmz/expectree';
+import { node } from '@suidrmz/expectree';
 
 const apiHealthy = node('service.apiHealthy', { type: 'healthcheck' });
 
@@ -243,7 +243,7 @@ import {
   exportExpectations,
   importExpectations,
   TreeBuilder,
-} from '@sui-drmz/expectree';
+} from '@suidrmz/expectree';
 
 // Serialize a tree definition (no runtime state)
 const serialized = exportExpectations(tree);
