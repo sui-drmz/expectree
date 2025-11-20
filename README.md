@@ -2,6 +2,15 @@
 
 Expectree is a TypeScript library for managing complex, branching state as expectation trees. You define expectations for how a scenario should unfold, and Expectree helps you run them step-by-step, inspect the state, and compare what actually happened to what you expected.
 
+## Use Cases
+
+- **Interactive / branching tutorials** – model multiple paths a learner can take (e.g., Vim tutorials, product tours).
+- **Adaptive exams & assessments** – unlock follow-up expectations based on answers and mastery.
+- **Incident runbooks & operational workflows** – encode your runbooks as trees, visualize progress, and record history.
+- **Complex workflows & wizards** – represent multi-step flows with shortcuts, optional branches, and guard conditions.
+
+If you build something with Expectree that doesn’t fit these boxes, I’d love to hear about it — see the “Real‑world Use Cases” section below.
+
 ## Install
 
 ```bash

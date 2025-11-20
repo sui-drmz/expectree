@@ -1,7 +1,7 @@
 {
   "name": "@sui-drmz/expectree",
   "version": "0.1.0",
-  "description": "TypeScript library for managing complex, branching state as expectation trees, with built-in history and inspection.",
+  "description": "Type-safe expectation trees for modeling branching workflows, tutorials, exams, and incident runbooks in TypeScript and React.",
   "private": false,
   "license": "MIT",
   "type": "module",
@@ -28,12 +28,25 @@
   },
   "homepage": "https://github.com/sui-drmz/expectree#readme",
   "keywords": [
+    "expectation",
+    "expectation-tree",
     "state",
     "state-management",
-    "tree",
+    "state-tree",
     "workflow",
-    "expectations",
-    "typescript"
+    "workflow-engine",
+    "branching",
+    "tutorial",
+    "interactive-tutorial",
+    "onboarding",
+    "runbook",
+    "incident-management",
+    "exam",
+    "assessment",
+    "testing-utilities",
+    "typescript",
+    "react",
+    "react-hook"
   ],
   "peerDependencies": {
     "react": ">=18.0.0"
